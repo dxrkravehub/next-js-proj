@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_STRAPI_URL": "https://your-strapi-app.railway.app",
+    "NEXT_PUBLIC_STRAPI_TOKEN": "@strapi-token"
+  }
+}
